@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Camila Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          Tsania Camila Finnisa
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="index.html">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="#education">Education</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="#experience">Experience</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#projects">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="#awards">Awards</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
+            <a href="cv_camila.pdf">CV</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="#education">Education</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Project</a>
+          <a href="#awards">Awards</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+    <!--About-->
+    <section>
+      <div class="main-container">
+        <div class="image" data-aos="zoom-out" data-aos-duration="5000">
+          <img src="img\main.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hey I'm <span>Camila</span>
+          </h1>
+          <div
+            class="typewriter"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+          >
+            I'm a <span class="typewriter-text"></span><label for="">|</label>
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            Hello! I am currently pursuing a Bachelor's degree in Computer
+            Science at
+            <a
+              href="https://dinus.ac.id/"
+              class="highlight-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Dian Nuswantoro University</a
+            >. My research interests are primarily in the field of Computer
+            Security, such as web security, system security, and network
+            security. I also have a keen interest in the Internet of Things
+            (IoT) and its implementation. I strive to enhance security and
+            privacy guarantees in emerging technologies and devices.
+          </p>
+          <div class="social-links">
+            <a
+              href="mailto:tsaniacamila@gmail.com"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+            <a
+              href="https://github.com/TsaniaMila"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/tsania.mila"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/tsania-camila-9675b52a3/"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1500"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://x.com/Moonshine408"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1600"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Education Section Start -->
+    <section class="education" id="education">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500">
+          <span>My Education</span>
+        </div>
+
+        <div class="education-container">
+          <!-- Universitas Dian Nuswantoro -->
+          <a
+            href="https://dinus.ac.id"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="edu-link"
+          >
+            <div
+              class="edu-box"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="200"
+            >
+              <div class="edu-logo">
+                <img src="img\udinus.png" alt="UDINUS Logo" />
+              </div>
+              <div class="edu-text">
+                <h3>Universitas Dian Nuswantoro</h3>
+                <p><strong>Major:</strong> Informatic Engineering</p>
+                <p><strong>Year:</strong> 2022 – Present</p>
+              </div>
+            </div>
+          </a>
+
+          <!-- SMA Negeri 1 Bangsri -->
+          <a
+            href="https://sman1bangsri.sch.id"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="edu-link"
+          >
+            <div
+              class="edu-box"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400"
+            >
+              <div class="edu-logo">
+                <img src="img\smansaba.png" alt="SMA Negeri 1 Bangsri Logo" />
+              </div>
+              <div class="edu-text">
+                <h3>SMA Negeri 1 Bangsri</h3>
+                <p><strong>Major:</strong> Science and Math</p>
+                <p><strong>Year:</strong> 2019 – 2022</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Experience Section Start -->
+    <section class="experience" id="experience"> 
+      <div class="content"> 
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"> 
+          <span>My Experience</span> 
+        </div>
+
+        <div class="experience-container">
+        <!-- Kartu 1 -->
+        <div class="exp-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+          <div class="exp-inner">
+            <div class="exp-logo">
+              <img 
+                src="img\semarang_cyber.png" 
+                alt="Logo Semarang Cyber Security" 
+              />
+            </div>
+            <div class="exp-text">
+              <h3 class="org">Semarang Cyber Security</h3>
+              <div class="role">Role : <span class="badge">Member</span></div>
+              <div class="meta">September 2024 - Present</div>
+              <hr>
+              <ul>
+                <br>
+                <li>Active in cybersecurity community activities in Semarang City.</li>
+                <li>Focused on software development and network security.</li>
+                <li>Participated in training, discussions, and workshops related to cybersecurity.</li>
+                <li>Engaged in collaborative projects to raise awareness and enhance skills in information security.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kartu 2 -->
+        <div class="exp-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+          <div class="exp-inner">
+            <div class="exp-logo">
+              <img 
+                src="img\logo dncc.png" 
+                alt="Logo DNCC" 
+              />
+            </div>
+            <div class="exp-text">
+              <h3 class="org">Dian Nuswantoro Computer Club</h3>
+              <div class="role">Role: <span class="badge">Network Division Member</span></div>
+              <div class="meta">August 2024 - August 2025</div>
+              <hr>
+              <ul>
+                <br>
+                <li>Active in an organization focused on computer networks and system security.</li>
+                <li>Involved in academic activities and mentoring students in bootcamps on computer networking.</li>
+                <li>Contributed to the network division to support technology development and student research.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kartu 3 -->
+        <div class="exp-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+          <div class="exp-inner">
+            <div class="exp-logo">
+              <img 
+                src="img\kampus merdeka.png" 
+                alt="Logo kampusmerdeka" 
+              />
+            </div>
+            <div class="exp-text">
+              <h3 class="org">Program Kreativitas Mahasiswa (PKM) 2024</h3>
+              <div class="role">Role : <span class="badge">Team Leader</span></div>
+              <div class="meta">February 2024 - August 2024</div>
+              <hr>
+              <ul>
+                <br>
+                <li>Served as both team leader and main programmer, coordinating members to carry out their tasks in a structured and efficient manner.</li>
+                <li>Led the team in designing and developing an innovative research project focusing on Internet of Things (IoT).</li>
+                <li>Actively engaged in project management, reporting, and collaboration with academic supervisors to ensure project success.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--My Skill Section Start-->
+    <section class="skills" id="skills">
+      <div class="title" data-aos="fade-up" data-aos-duration="1500">
+        <span>My Skills</span>
+      </div>
+
+      <div
+        class="skills-container"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="200"
+      >
+        <!-- General -->
+        <div class="skill-card">
+          <h3>Programming Lang</h3>
+          <div class="skill-items">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                alt=""
+              />C++
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                alt=""
+              />Python
+            </div>
+            <div class="skill">
+              <img src="https://skillicons.dev/icons?i=c"
+                alt=""
+              />C
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                alt=""
+              />Java
+            </div>
+            <div class="skill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" 
+              alt="" />PHP
+            </div>
+          </div>
+        </div>
+
+        <!-- WEB DEV-->
+        <div class="skill-card">
+          <h3>Web Dev</h3>
+          <div class="skill-items">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt=""
+              />HTML
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt=""
+              />CSS
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt=""
+              />JavaScript
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                alt=""
+              />Bootstrap
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+                alt=""
+              />MySQL
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/codeigniter/codeigniter-plain-wordmark.svg"
+                alt=""
+              />Codeigniter
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"
+                alt=""
+              />Laravel
+            </div>
+          </div>
+        </div>
+
+        <!-- AI/ML -->
+        <div class="skill-card">
+          <h3>AI/ML Library</h3>
+          <div class="skill-items">
+            <div class="skill">
+              <img
+                src="https://skillicons.dev/icons?i=scikitlearn"
+                alt=""
+              />Scikit-Learn
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+                alt=""
+              />PyTorch
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg"
+                alt=""
+              />OpenCV
+            </div>
+            <div class="skill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" alt="" />Matplotlib
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                alt=""
+              />NumPy
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg"
+                alt=""
+              />Pandas
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg"
+                alt=""
+              />Streamlit
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg"
+                alt=""
+              />Tensorflow
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg"
+                alt=""
+              />Keras
+            </div>
+          </div>
+        </div>
+
+        <!-- TOOLS -->
+        <div class="skill-card">
+          <h3>Security Tools</h3>
+          <div class="skill-items">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/bwks/vendor-icons-svg@master/nmap-logo.svg"
+                alt=""
+              />Nmap
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/bwks/vendor-icons-svg@master/wireshark.svg"
+                alt=""
+              />wireshark
+            </div>
+            <div class="skill">
+              <img
+                src="img/Logo_metasploit.png"
+                alt=""
+              />Metasploit
+            </div>
+            <div class="skill">
+              <img
+                src="img/logo_nslookup.svg"
+                alt=""
+              />Nslookup
+            </div>
+            <div class="skill">
+              <img
+                src="img/theHarvester-logo.webp"
+                alt=""
+              />The Harvester
+            </div>
+            <div class="skill">
+              <img
+                src="img/Logo_burpsuite.jpg"
+                alt=""
+              />Burp Suite
+            </div>
+            <div class="skill">
+              <img src="img/sherlock-logo.png" 
+              alt="" />Sherlock
+            </div>
+          </div>
+        </div>
+        
+        <!-- OTHERS -->
+        <div class="skill-card">
+          <h3>Others</h3>
+          <div class="skill-items">
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+                alt=""
+              />Linux
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                alt=""
+              />Figma
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                alt=""
+              />Git
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt=""
+              />GitHub
+            </div>
+            <div class="skill">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                alt=""
+              />Docker
+            </div>
+            <div class="skill">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecolab/googlecolab-original.svg" alt="" />Google
+              Colab
+            </div>
+            <div class="skill"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" />
+              NGINX
+            </div>
+            <div class="skill"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kalilinux/kalilinux-original.svg" />
+              KaliLinux
+            </div>
+            <div class="skill"> 
+              <img src="https://cdn.jsdelivr.net/gh/bwks/vendor-icons-svg@master/ubuntu.svg" />
+              Ubuntu
+            </div>
+            <div class="skill"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" />
+              intellij
+            </div>
+            <div class="skill"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg" />
+              Jupyter
+            </div>
+            <div class="skill"> 
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" />
+              Postman
+            </div>
+            <div class="skill"> 
+              <img src="https://skillicons.dev/icons?i=arduino" />
+              Arduino
+            </div>
+            <div class="skill"> 
+              <img src="https://cdn.jsdelivr.net/gh/bwks/vendor-icons-svg@master/cisco-blue.svg" />
+              Cisco
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- My Projects Section Start -->
+    <section class="projects" id="projects">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500"><span>My Projects</span></div>
+        <div class="boxes">
+
+          <!-- Project 1 -->
+          <div class="box" data-project="project1"  class="exp-box"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="200">
+            <img src="img\projects1.png" alt="Project 1">
+            <div class="topic">BONARFA : Bonsai Smart Farming</div>
+            <p>Integration of IoT in Bonsai cultivation to track temperature, analyze soil health, and manage automatic irrigation.</p>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="box" data-project="project2"  class="exp-box"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="400">
+            <img src="img\projects4.png" alt="Project 2">
+            <div class="topic">Smart DoorLock RFID</div>
+            <p>Smart door lock system using RFID integrated with nodeMCU-esp8266 microcontroller to enhance security and card based access</p>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="box" data-project="project3"  class="exp-box"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="600">
+            <img src="img\projects3.png" alt="Project 3">
+            <div class="topic">Shape Detection</div>
+            <p>A computer vision application built with Python and OpenCV to detect geometric shapes such as circles, triangles, and squares from images or a camera.</p>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="box" data-project="project3"  class="exp-box"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="600">
+            <img src="img\projects2.png" alt="Project 3">
+            <div class="topic">Simple RSA Algorithm</div>
+            <p>A simple implementation of the RSA algorithm for encrypting and decrypting messages using public-key cryptography.</p>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="box" data-project="project3"  class="exp-box"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="600">
+            <img src="img\projects5.png" alt="Project 3">
+            <div class="topic">Exploitation with Metasploitable</div>
+            <p>A cyber-attack simulation using Metasploitable to study security vulnerabilities, exploitation techniques for vulnerable systems.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!--My Awards Section Start-->
+    <section class="awards" id="awards">
+      <div class="content"></div>
+      <div class="title" data-aos="fade-up" data-aos-duration="1500">
+        <span>Awards</span>
+      </div>
+
+      <div class="awards-container">
+        <!-- Kartu 1 -->
+        <div class="awd-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+          <div class="awd-inner">
+            <div class="awd-logo">
+              <img 
+                src="img\Garuda_ace.png" 
+                alt="Logo Garuda ACE" 
+              />
+            </div>
+            <div class="awd-text">
+              <h3 class="org">Garuda ACE</h3>
+              <div class="meta">January 2025 - Present</div>
+              <hr>
+              <ul>
+                <br>
+                <li>Selected as one of the 50 best Computer Science students from various leading universities in Indonesia.</li>
+                <li>Research and English training to improve research capacity at the international level.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kartu 2 -->
+        <div class="awd-card" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+          <div class="awd-inner">
+            <div class="awd-logo">
+              <img 
+                src="img\kampus merdeka.png" 
+                alt="Logo mbkm" 
+              />
+            </div>
+            <div class="awd-text">
+              <h3 class="org">Student Creativity Program / Program Kreativitas Mahasiswa 2024</h3>
+              <div class="meta">April - August 2024</div>
+              <hr>
+              <ul>
+                <br>
+                <li>Successfully obtained funding in the Student Creativity Program (Program Kreativitas Mahasiswa) 2024 at the national level from 43,000 competing teams to design innovative projects/research.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Footer Section Start-->
+    <footer>
+      <div class="text">
+        <span>Created By Tsania Camila |&#169; 2025 All Right Reserved</span>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js">
+      function hamburg(){
+        const navbar = document.querySelector(".dropdown");
+        navbar.style.transform = 'translateY(0px)';
+      }
+      function cancel(){
+      const navbar = document.querySelector(".dropdown");
+      navbar.style.transform = 'translateY(-500px)';
+      }
+    </script>
+  </body>
+</html>
