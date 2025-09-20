@@ -552,9 +552,24 @@ section .button button:hover {
 /* Responsive untuk mobile */
 @media (max-width: 768px) {
   .edu-box {
-    flex-direction: column; 
-    align-items: center; 
-    gap: 30px; 
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+
+    width: 450px;
+    max-width: 90%; /* kotak hanya 90% dari lebar layar */
+    margin: 0 auto; /* biar center dengan sisa jarak kiri/kanan */
+  }
+
+  .edu-logo img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+  }
+
+  .edu-text {
+    text-align: center;
   }
 }
 
